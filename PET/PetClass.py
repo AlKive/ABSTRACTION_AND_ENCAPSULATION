@@ -18,5 +18,20 @@ def set_age(self, age):
         self.__age = age
         
    #getters
+def get_name(self):
+        return self.__name
+    
+    # get animal type
+def get_type(self):
+        return self.__animal_type
+    
+    # get age
+def get_age(self):
+        return self.__age
    #display
+   
+def display(self):
+        print("  Pet's Name  :", self.__name)
+        print("  Animal Type :" , self.__animal_type)
+        print("  Pet's Age   :" , self.__age)
 
