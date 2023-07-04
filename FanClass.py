@@ -11,13 +11,6 @@ class FAN:
 # create private int data for speed
     def set_speed(self, speed):
         self.__speed = speed
-        self.__speed = int(input("ENTER SPEED (1-3): "))
-        if self.__speed == 1:
-                self.__speed = 'SLOW'
-        elif self.__speed == 2:
-                self.__speed = 'MEDIUM'
-        elif self.__speed == 3:
-                self.__speed = 'FAST'
         
 # create private bool data for power(ON/OFF)
     def set_status(self, power):
