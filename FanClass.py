@@ -1,20 +1,19 @@
-'''PSEUDOCODE'''
 #create fan class
 class FAN:
-    def __init__ (self, speed = 'SLOW', radius = 5, color = 'blue', on = 0):
+    def __init__ (self, speed = 'SLOW', radius = 5, color = 'Blue', status = False):
         self.__speed = speed
         self.__radius = radius
         self.__color = color
-        self.__on = on
+        self.__status = status
         
 # define methods
 # create private int data for speed
-    def set_speed(self, speed):
+    def set_speed(self,speed):
         self.__speed = speed
-        
 # create private bool data for power(ON/OFF)
-    def set_status(self, power):
-        self.__power = bool(power)
+    def set_status(self, status):
+        self.__status = bool(status)
+ 
         
 # create private float data for radius        
     def set_radius(self, radius):
@@ -29,7 +28,7 @@ class FAN:
         return self.__speed
 
     def get_status(self):
-        return self.__power
+        return self.__status
 
     def get_radius(self):
         return self.__radius
@@ -38,5 +37,7 @@ class FAN:
         return self.__color
     
     #Display
-    def fan_attributes(self):
-        print("SPEED: ", self.__speed, "\nRADIUS: ", self.__radius, "\nCOLOR: ", self.__color, "\nPOWER: ", self.__power)
+    def fan1_attributes(self):
+        print("SPEED: ", self.__speed, "\nRADIUS: ", self.__radius, "\nCOLOR: ", self.__color, "\nPOWER: ", self.__status, "\n")
+    def fan2_attributes(self):
+        print("SPEED: ", self.__speed, "\nRADIUS: ", self.__radius, "\nCOLOR: ", self.__color, "\nPOWER: ", self.__status, "\n")        
