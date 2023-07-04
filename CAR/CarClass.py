@@ -1,4 +1,3 @@
-'''PSEUDOCODE'''
 # Create Car class
 class CAR:
 # init/create constructor

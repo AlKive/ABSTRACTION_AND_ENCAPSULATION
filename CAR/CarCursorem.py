@@ -1,4 +1,3 @@
-'''Pseudocode'''
 #import car class
 from CarClass import CAR
 #create object for car
