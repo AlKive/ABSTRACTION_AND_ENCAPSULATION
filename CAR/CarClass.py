@@ -15,5 +15,9 @@ class CAR:
     def current_speed(self):
         return self.__speed
 #display the car's speed
-    def display_current_speed(self):
+    def accelerating_speed_display(self):
       print(" Speed: ",self.__speed,"kph")
+    def brake_speed_display(self):
+      print(" Speed: ",self.__speed,"kph")
+    def separator_display (self):
+        print ("\n\n")
