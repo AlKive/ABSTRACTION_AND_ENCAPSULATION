@@ -13,3 +13,7 @@ def FAN1_RUN ():
   FAN1.set_color('Yellow')
   FAN1.set_status(True)
   FAN1.fan1_attributes()
+
+def FAN2_RUN ():
+# create objects
+  FAN2 = FAN()
