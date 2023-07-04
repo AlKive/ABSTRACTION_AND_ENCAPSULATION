@@ -12,4 +12,6 @@ def accelerate(self):
 def brake(self):
         self.__speed -= 5        
 #get car's speed
+def current_speed(self):
+        return self.__speed
 #display the car's speed
