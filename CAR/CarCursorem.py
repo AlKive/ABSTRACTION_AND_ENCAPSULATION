@@ -8,5 +8,8 @@ for i in range (5):
     Chevrolette.accelerate()
     Chevrolette.display_current_speed()
 # call brake method five times and display current speed (USING FOR-LOOP)
+for i in range (5):
+    Chevrolette.brake()
+    Chevrolette.display_current_speed()
 
 
