@@ -15,3 +15,5 @@ def brake(self):
 def current_speed(self):
         return self.__speed
 #display the car's speed
+def display_current_speed(self):
+ print(" Speed: ",self.__speed,"kph")
