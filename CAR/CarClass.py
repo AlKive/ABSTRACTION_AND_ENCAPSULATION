@@ -1,6 +1,6 @@
 '''PSEUDOCODE'''
 # Create Car class
-class Car:
+class CAR:
 # init/create constructor
     def __init__ (self, year_model = 2020, make = "Chevrolet Corvette", speed=0):
         self.__year_model = year_model 
