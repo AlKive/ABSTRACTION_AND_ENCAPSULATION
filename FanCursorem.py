@@ -17,3 +17,14 @@ def FAN1_RUN ():
 def FAN2_RUN ():
 # create objects
   FAN2 = FAN()
+  
+# display object's properties
+#Object 2 Attributes
+  FAN2.set_speed(2)
+  FAN2.set_radius(5)
+  FAN2.set_color('Blue')
+  FAN2.set_status(False)
+  FAN2.fan2_attributes()  
+  
+FAN1_RUN()
+FAN2_RUN()
