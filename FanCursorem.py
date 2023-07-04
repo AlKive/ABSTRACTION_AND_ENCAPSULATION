@@ -4,8 +4,7 @@ from FanClass import FAN
 #create function for FAN 1
 def FAN1_RUN ():
 # create object
-  FAN1 = FAN()
-  
+  FAN1 = FAN()  
 # display object's attributes
 #Object 1 Attributes
   FAN1.set_speed(3)
@@ -17,8 +16,6 @@ def FAN1_RUN ():
 def FAN2_RUN ():
 # create objects
   FAN2 = FAN()
-  
-  
 # display object's properties
 #Object 2 Attributes
   FAN2.set_speed(2)
