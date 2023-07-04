@@ -18,6 +18,7 @@ def FAN2_RUN ():
 # create objects
   FAN2 = FAN()
   
+  
 # display object's properties
 #Object 2 Attributes
   FAN2.set_speed(2)
