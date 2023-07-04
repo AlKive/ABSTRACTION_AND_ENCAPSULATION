@@ -36,3 +36,7 @@ class FAN:
 
     def get_color(self):
         return self.__color
+    
+    #Display
+    def fan_attributes(self):
+        print("SPEED: ", self.__speed, "\nRADIUS: ", self.__radius, "\nCOLOR: ", self.__color, "\nPOWER: ", self.__power)
