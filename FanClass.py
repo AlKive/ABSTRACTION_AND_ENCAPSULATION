@@ -25,3 +25,14 @@ class FAN:
         self.__color = str(color) 
         
 # create getters
+    def get_speed(self):
+        return self.__speed
+
+    def get_status(self):
+        return self.__power
+
+    def get_radius(self):
+        return self.__radius
+
+    def get_color(self):
+        return self.__color
