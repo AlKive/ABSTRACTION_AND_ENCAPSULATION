@@ -1,5 +1,10 @@
 # BABIERA,ALEXA | CMPE-103-MODULE-6-ABSTRACTION AND ENCAPSULATION|
 # ASSIGNMENT #9 (PROGRAMMING EXERCISE 20)
+
+from colorama import Back, Fore, Style, init
+from tkinter import *
+from tkinter import messagebox
+
 #create class
 class PET:
     def __init__(self, name, animal_type, age):
@@ -32,7 +37,7 @@ class PET:
     #display
     
     def display(self):
-            print("  Pet's Name  :", self.__name)
-            print("  Animal Type :" , self.__animal_type)
-            print("  Pet's Age   :" , self.__age)
+        messagebox.showinfo("Pet's Name :", self.__name)
+        messagebox.showinfo("Animal Type :" , self.__animal_type)
+        messagebox.showinfo("Pet's Age :" , self.__age)
 
