@@ -1,3 +1,10 @@
+#import the necessary module
+from colorama import Back, Fore, Style, init
+import time
+from tkinter import *
+from termcolor import colored
+
+ws = Tk()
 #create fan class
 class FAN:
     def __init__ (self, speed = 'SLOW', radius = 5, color = 'Blue', status = False):
@@ -5,6 +12,7 @@ class FAN:
         self.__radius = radius
         self.__color = color
         self.__status = status
+    
         
 # define methods
 # create private int data for speed
@@ -38,6 +46,12 @@ class FAN:
     
     #Display
     def fan1_attributes(self):
-        print("SPEED: ", self.__speed, "\nRADIUS: ", self.__radius, "\nCOLOR: ", self.__color, "\nPOWER: ", self.__status, "\n")
+        time.sleep (2)
+        print(Fore.LIGHTBLUE_EX + "\nSPEED: ",Fore.YELLOW + str(self.__speed), Fore.LIGHTBLUE_EX + "\nRADIUS: ", Fore.YELLOW + str(self.__radius), Fore.LIGHTBLUE_EX + "\nCOLOR: ", Fore.YELLOW + self.__color, Fore.LIGHTBLUE_EX + "\nPOWER: ", Fore.YELLOW + str(self.__status), "\n")
     def fan2_attributes(self):
-        print("SPEED: ", self.__speed, "\nRADIUS: ", self.__radius, "\nCOLOR: ", self.__color, "\nPOWER: ", self.__status, "\n")        
+        time.sleep (2)
+        print(Fore.LIGHTBLUE_EX + "SPEED: ",Fore.YELLOW + str(self.__speed), Fore.LIGHTBLUE_EX + "\nRADIUS: ", Fore.YELLOW + str(self.__radius), Fore.LIGHTBLUE_EX + "\nCOLOR: ", Fore.YELLOW + self.__color, Fore.LIGHTBLUE_EX + "\nPOWER: ", Fore.YELLOW + str(self.__status), "\n")
+    def designUpper(self):
+        print(Fore.LIGHTCYAN_EX + "╔═*.·:·.✧ ✦ ✧.·:·.*═╗" * 5)
+        
+    
