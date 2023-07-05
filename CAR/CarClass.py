@@ -1,5 +1,8 @@
 # BABIERA,ALEXA | CMPE-103-MODULE-6-ABSTRACTION AND ENCAPSULATION|
 # ASSIGNMENT #9 (PROGRAMMING EXERCISE 19)
+from colorama import Back, Fore, Style, init
+import time
+from tkinter import *
 # Create Car class
 class CAR:
 # init/create constructor
@@ -17,8 +20,10 @@ class CAR:
         return self.__speed
 #display the car's speed
     def accelerating_speed_display(self):
-      print(" Speed: ",self.__speed,"kph")
+        print(Fore.GREEN + " Speed: ",Fore.WHITE + str(self.__speed), Fore.YELLOW + "kph")
     def brake_speed_display(self):
-      print(" Speed: ",self.__speed,"kph")
+        print(Fore.MAGENTA + " Speed: ",Fore.WHITE + str(self.__speed), Fore.YELLOW + "kph")
+ 
     def separator_display (self):
-        print ("\n\n")
+        time.sleep(2)
+        print (Fore.LIGHTWHITE_EX + "︶꒦꒷♡꒷꒦︶"* 7)
