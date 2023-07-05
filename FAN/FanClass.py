@@ -1,3 +1,5 @@
+# BABIERA,ALEXA | CMPE-103-MODULE-6-ABSTRACTION AND ENCAPSULATION|
+# ASSIGNMENT #9 (PROGRAMMING EXERCISE 18)
 #import the necessary module
 from colorama import Back, Fore, Style, init
 import time

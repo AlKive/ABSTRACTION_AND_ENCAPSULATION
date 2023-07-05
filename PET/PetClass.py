@@ -1,4 +1,5 @@
-
+# BABIERA,ALEXA | CMPE-103-MODULE-6-ABSTRACTION AND ENCAPSULATION|
+# ASSIGNMENT #9 (PROGRAMMING EXERCISE 20)
 #create class
 class PET:
     def __init__(self, name, animal_type, age):
